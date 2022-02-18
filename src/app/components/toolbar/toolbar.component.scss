@@ -1,0 +1,42 @@
+.toolbar {
+  background-color: #157E83;
+  min-height: 8vh;
+
+  &__content {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 6px 10px;
+    justify-content: space-between;
+
+    @media (min-width: 768px) {
+      padding: 6px 20px;
+    }
+
+    @media (min-width: 1280px) {
+      padding: 10px 30px;
+    }
+
+    .text {
+      padding: 4px
+    }
+
+    .social-cta {
+      .social-icons {
+        display: flex;
+        flex-direction: row;
+        padding: 1px;
+      }
+
+      .button {
+        .btn {
+          background: black;
+          color: white;
+          border-radius: 6px;
+          padding: 5px 5px;
+        }
+      }
+    }
+
+  }
+}
