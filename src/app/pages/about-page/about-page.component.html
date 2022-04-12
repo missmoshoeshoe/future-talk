@@ -1,1 +1,23 @@
-<p>about-page works!</p>
+<app-page-name [pageName]="pageData"></app-page-name>
+<section class="about-page">
+  <div class="about-page__content" *ngFor="let aboutData of aboutPage">
+    <div class="heading">
+      {{ aboutData.heading}}
+    </div>
+    <div class="copy">
+      <p> {{ aboutData.paragraph01}} </p>
+
+      <p> {{aboutData.paragraph02}} </p>
+
+      <p> {{aboutData.paragraph02}} </p>
+    </div>
+  </div>
+  <div class="about-page__slider">
+    <div class="heading">
+      News
+    </div>
+    <div class="slider">
+      <!-- To Do: add news slider -->
+    </div>
+  </div>
+</section>

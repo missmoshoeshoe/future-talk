@@ -1,1 +1,20 @@
-<p>article-page works!</p>
+<section class="article-page">
+  <div class="article-page__content" *ngFor="let data of articlePage">
+    <div class="article-page__breadcrumbs">
+      <!-- {{data.breadcrumbs}} -->
+      <hr class="underline">
+    </div>
+    <div class="article-page__heading">
+      <!-- {{data.heading}} -->
+    </div>
+    <div class="article-page__image">
+      <!-- <img src="{{data.image}}"> -->
+    </div>
+    <div class="article-page__date">
+      <!-- moment.js -->
+    </div>
+    <div class="article-page__content">
+      <!-- {{data.content}} -->
+    </div>
+  </div>
+</section>

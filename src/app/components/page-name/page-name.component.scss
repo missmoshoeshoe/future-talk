@@ -1,0 +1,15 @@
+.page-name {
+    padding: 2rem 6rem 1rem;
+
+    &__title {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    &__underline {
+        width: 4rem;
+        height: 0.2rem;
+        background-color: #157E83;
+        border-radius: 2px;
+    }
+}

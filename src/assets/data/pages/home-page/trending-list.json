@@ -1,0 +1,15 @@
+[
+    {
+        "category": "Lifestyle",
+        "imgUrl": "/assets/images/image_placeholder.jpg",
+        "heading": "Lorem ipsum dolor",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend molestie libero eu ornare. Sed gravida efficitur tortor molestie pharetra. Nunc blandit eu nisl nec bibendum. Vivamus tincidunt dignissim lorem, lacinia accumsan felis venenatis id. Nunc dignissim mauris vulputate faucibus mattis. Quisque feugiat, sem ut auctor bibendum, libero orci ultricies odio, vitae consequat magna mauris id dolor. Nulla luctus auctor odio ut tincidunt. Fusce interdum velit eu enim convallis hendrerit. Fusce eu semper massa. Proin ultricies, elit sit amet interdum sodales, lorem velit hendrerit tortor, eu placerat sem nulla in nisi. Maecenas malesuada porta dictum. Nam consectetur posuere elementum."
+    },
+    {
+        "category": "Lifestyle",
+        "imgUrl": "/assets/images/image_placeholder.jpg",
+        "heading": "Lorem ipsum dolor 2",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend molestie libero eu ornare. Sed gravida efficitur tortor molestie pharetra. Nunc blandit eu nisl nec bibendum. Vivamus tincidunt dignissim lorem, lacinia accumsan felis venenatis id. Nunc dignissim mauris vulputate faucibus mattis. Quisque feugiat, sem ut auctor bibendum, libero orci ultricies odio, vitae consequat magna mauris id dolor. Nulla luctus auctor odio ut tincidunt. Fusce interdum velit eu enim convallis hendrerit. Fusce eu semper massa. Proin ultricies, elit sit amet interdum sodales, lorem velit hendrerit tortor, eu placerat sem nulla in nisi. Maecenas malesuada porta dictum. Nam consectetur posuere elementum."
+    }
+
+]

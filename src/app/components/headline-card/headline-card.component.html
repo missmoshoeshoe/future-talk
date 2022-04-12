@@ -1,1 +1,8 @@
-<p>headline-card works!</p>
+<section class="headline-card">
+  <div class="headline-card__header">Top Headlines</div>
+  <hr class="headline-card__header-underline">
+  <div class="headline-card__content" *ngFor="let item of headlines">
+    {{item.url}}
+    <hr class="line">
+  </div>
+</section>

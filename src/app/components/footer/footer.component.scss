@@ -1,0 +1,41 @@
+.footer {
+  color: white;
+  background-color: #157E83;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5em;
+
+    @media(min-width: 768px) {
+      flex-direction: row;
+    }
+
+    .footer-section {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .section-header {
+        font-weight: 600;
+        padding: 5px 0px;
+      }
+    }
+
+  }
+
+  &__line {
+    color: white;
+  }
+
+  &__copyright {
+    text-align: center;
+    padding: 1em;
+  }
+
+}

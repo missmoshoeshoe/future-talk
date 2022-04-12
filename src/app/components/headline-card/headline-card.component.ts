@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import headlineJson from 'src/assets/data/headlinescard.json';
+
+interface headlinecard {
+  url: string;
+}
 
 @Component({
   selector: 'app-headline-card',
@@ -6,6 +11,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./headline-card.component.scss']
 })
 export class HeadlineCardComponent implements OnInit {
+
+  headlines: headlinecard[] = headlineJson;
 
   constructor() { }
 

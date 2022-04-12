@@ -1,0 +1,24 @@
+<section class="top-video-card" *ngFor="let topVideoData of topVideoCard">
+    <div class="top-video-card__card">
+      <div class="label">
+        {{topVideoData.label}}
+      </div>
+      <div class="headline">
+        <div class="heading"> 
+           <i class="fa fa-video"></i>
+           Watch |
+          {{topVideoData.heading}}
+        </div>
+        <div class="description">
+          {{topVideoData.description}}
+        </div>
+        <div class="time-stamp">
+          <!-- TO DO: add timestamp -->
+        </div>
+      </div>
+      <div class="image">
+        <img src="{{topVideoData.imgUrl}}">
+      </div>
+    </div>
+  </section>
+  

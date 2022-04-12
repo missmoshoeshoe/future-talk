@@ -1,0 +1,13 @@
+<section class="home-page">
+  <div class="home-page__trending-list">
+    <app-trending-list [trendingList]="trendingData"></app-trending-list>
+    <app-video-article-card [videoCard]="videoData"></app-video-article-card>
+  </div>
+  <div class="home-page__article-cards">
+    <app-article-card [articleCard]="articleCardData"></app-article-card>
+  </div>
+  <div class="home-page__slider">
+    <app-top-story-card [topStoryCard]="topStoryData"></app-top-story-card>
+  </div>
+  <app-top-video-card [topVideoCard]="topVideoData"></app-top-video-card>
+</section>

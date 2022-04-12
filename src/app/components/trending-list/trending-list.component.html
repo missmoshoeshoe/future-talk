@@ -1,0 +1,23 @@
+<section class="trending-list">
+  <div class="trending-list__heading">
+    Trending
+    <div class="underline"></div>
+  </div>
+  <div class="trending-list__content" *ngFor="let trendingData of trendingList">
+    <div class="category">
+      {{ trendingData.category }}
+    </div>
+    <div class="article-content">
+      <div class="image">
+        <img src="{{trendingData.imgUrl}}">
+      </div>
+      <div class="copy">
+        <div class="heading"> {{ trendingData.heading}} </div>
+        {{ trendingData.paragraph}}
+        <!-- TODO: timestamp -->
+      </div>
+    </div>
+    <div class="line"></div>
+  </div>
+  <!-- More button -->
+</section>

@@ -1,0 +1,21 @@
+<section class="top-story-card" *ngFor="let topStoryData of topStoryCard">
+  <div class="top-story-card__card">
+    <div class="label">
+      {{topStoryData.label}}
+    </div>
+    <div class="headline">
+      <div class="heading">
+        {{topStoryData.heading}}
+      </div>
+      <div class="description">
+        {{topStoryData.description}}
+      </div>
+      <div class="time-stamp">
+        <!-- TO DO: add timestamp -->
+      </div>
+    </div>
+    <div class="image">
+      <img src="{{topStoryData.imgUrl}}">
+    </div>
+  </div>
+</section>

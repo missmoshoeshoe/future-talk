@@ -1,0 +1,62 @@
+.trending-list {
+  padding: 6rem;
+
+  &__heading {
+    font-size: 1.5em;
+    font-weight: 600;
+
+    .underline {
+      width: 4rem;
+      height: 0.2rem;
+      background-color: #157E83;
+      border-radius: 2px;
+    }
+  }
+
+  &__content {
+    .category {
+      font-size: 15px;
+      font-weight: 600;
+      padding: 2rem 0rem;
+    }
+
+    .article-content {
+      display: flex;
+      flex-direction: column;
+
+      @media(min-width:1024px) {
+        flex-direction: row;
+      }
+
+      .image {
+        img {
+          width: auto;
+          height: 15rem;
+        }
+      }
+
+      .copy {
+
+        padding: 3rem 0rem;
+
+        @media(min-width:768px) {
+          padding: 0rem 3rem;
+        }
+
+
+        .heading {
+          padding-bottom: 1rem;
+          font-size: 25px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .line {
+      width: 55rem;
+      height: 0.1rem;
+      background-color: #157E83;
+      margin: 2rem 0rem;
+    }
+  }
+}

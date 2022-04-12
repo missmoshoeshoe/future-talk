@@ -1,0 +1,29 @@
+.about-page {
+
+  &__content {
+    .heading {
+      padding: 1rem 6rem 1rem;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    .copy {
+      padding: 0rem 30rem 2rem 6rem;
+      line-height: 1.6;
+
+      p{
+          padding: 1rem 0;
+      }
+    }
+  }
+
+  &__slider {
+    padding: 2rem 0rem;
+
+    .heading {
+      padding: 2rem 6rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+}

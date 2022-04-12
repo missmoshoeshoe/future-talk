@@ -1,0 +1,24 @@
+.headline-card {
+  width: 13em;
+  height: 13em;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 2px;
+
+  &__header {
+    padding: 4px 0px;
+  }
+
+  &__header-underline {
+    width: 7em;
+    background-color: #157E83;
+  }
+
+  &__content {
+    padding: 8px 0;
+
+    .line {
+      margin: 5px 0em;
+    }
+  }
+}

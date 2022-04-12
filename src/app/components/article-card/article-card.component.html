@@ -1,1 +1,22 @@
-<p>article-card works!</p>
+<section class="article-card" *ngFor="let articleCardData of articleCard">
+    <div class="article-card__content">
+      <div class="image">
+        <div class="label">
+          {{articleCardData.label}}
+        </div>
+        <img src="{{articleCardData.imgUrl}}">
+      </div>
+      <div class="article-title">
+        <span class="header">
+          {{articleCardData.title}}
+        </span>
+      </div>
+      <div class="article-summary">
+        {{articleCardData.text}}
+      </div>
+      <div class="time-stamp">
+        <!-- Add time stamp -->
+      </div>
+    </div>
+  </section>
+  
